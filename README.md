@@ -46,10 +46,6 @@ The goal is to demonstrate **real-world data analyst skills**, including:
 - `order_items`
 - `products`
 
-**Relationships:**
-customers → orders → order_items → products
-
-
 ---
 
 ## 📊 Key Business Questions Answered
@@ -113,10 +109,17 @@ ecommerce-sql-analysis/
 
 ---
 
-## 📌 Dataset
+## 📌 Dataset & Database
 
-- **Source:** Public E-Commerce Dataset (Olist)
-- Includes customer, order, product, and logistics data
+- **Dataset Source:** Brazilian E-Commerce Public Dataset by Olist  
+- **Platform:** Kaggle  
+- **Link:** https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
+
+The original dataset consists of multiple CSV files containing customer, order,
+product, and logistics information.
+
+A **SQLite database** was created locally by importing and modeling these CSV files.
+The database file is not included in this repository due to file size limitations.
 
 ---
 
