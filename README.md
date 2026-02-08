@@ -7,30 +7,33 @@
 
 ## 🧠 Project Overview
 
-This project analyzes an **e-commerce dataset** to extract meaningful **business insights** using **SQL**.  
-A **SQLite database** was created, and all analysis was performed using optimized SQL queries.
+This project analyzes a real-world **e-commerce dataset** to extract meaningful  
+**business insights** using **SQL (SQLite)**.
 
-The goal is to demonstrate **real-world data analyst skills**, including:
-- Data exploration
+A local SQLite database was created from multiple CSV files, and all analysis was
+performed using optimized SQL queries.
+
+The goal of this project is to demonstrate **practical data analyst skills**, including:
+- Data exploration and transformation
 - Business metric calculation
 - Data quality validation
-- Analytical thinking
+- Analytical and business-oriented thinking
 
 ---
 
 ## 🎯 Objectives
 
-- Understand customer distribution and behavior  
+- Understand customer distribution and purchasing behavior  
 - Analyze order volume and revenue trends  
-- Evaluate delivery performance and logistics costs  
-- Ensure data quality before deriving insights  
+- Evaluate delivery performance and logistics efficiency  
+- Ensure data quality before generating insights  
 
 ---
 
 ## 🛠️ Tools & Technologies
 
 | Tool | Purpose |
-|----|----|
+|-----|--------|
 | **SQL (SQLite)** | Data analysis |
 | **SQLite Database** | Data storage |
 | **Power BI** | Dashboard visualization |
@@ -64,10 +67,10 @@ The goal is to demonstrate **real-world data analyst skills**, including:
 ## 🔍 Key Insights
 
 - Revenue is calculated **only from delivered orders** to ensure accuracy  
-- A small group of customers contributes a large portion of total revenue  
+- A small group of customers contributes a large share of total revenue  
 - Certain states consistently outperform others in sales  
 - Some orders are delivered later than the estimated delivery date  
-- Freight costs form a significant operational expense  
+- Freight costs represent a significant operational expense  
 
 ---
 
@@ -83,48 +86,53 @@ The following checks were performed before analysis:
 ---
 
 ## 📁 Repository Structure
+
 ecommerce-sql-analysis/
 
 ├── sql/
   
   │  └── analysis.sql
 
-├── dashboards/
+├── powerbi_dashboard.png/
   
-  │  └── Power BI dashboard
-
 ├── README.md
+
 
 
 ---
 
-## 📈 Dashboard
+## 📈 Power BI Dashboard
 
-🔗 **Power BI Dashboard**  
-👉 _Add your Power BI dashboard link here_
+Below is a snapshot of the Power BI dashboard created to visualize the insights
+derived from SQL analysis:
+
+![Power BI Dashboard](powerbi_dashboard.png)
+
+> 📌 The Power BI `.pbix` file is not included due to file size limitations.  
+> The dashboard was built using aggregated outputs from SQL queries.
 
 ---
 
 ## 📌 Dataset & Database
 
-- **Dataset Source:** Brazilian E-Commerce Public Dataset by Olist  
-- **Platform:** Kaggle  
+- **Dataset:** Brazilian E-Commerce Public Dataset by Olist  
+- **Source:** Kaggle  
 - **Link:** https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
 The original dataset consists of multiple CSV files containing customer, order,
 product, and logistics information.
 
 A **SQLite database** was created locally by importing and modeling these CSV files.
-The database file is not included in this repository due to file size limitations.
+The database file is not included in this repository due to size constraints.
 
 ---
 
 ## 🚀 Key Learnings
 
 - Writing complex SQL queries using joins, CTEs, and aggregations  
-- Translating business questions into analytical SQL  
-- Importance of data validation in analytics  
-- Structuring SQL projects for real-world use cases  
+- Translating business questions into analytical SQL solutions  
+- Performing data validation before analysis  
+- Structuring analytics projects for real-world use cases  
 
 ---
 
